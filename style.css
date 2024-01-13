@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fr,1fr;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    margin: 8px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;    
+}
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(6, 202, 202);
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 85%;
+    margin: 10px auto;
+}
+.item{
+    padding: 8px 10px;
+}
+.item img{
+    height: 140px;
+    width: 300px;
+}
